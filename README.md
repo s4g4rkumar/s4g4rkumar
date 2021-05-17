@@ -1,8 +1,8 @@
 # s4g4rkumar
 
-## *About Me :*
-
 ![Banner](github-banner.png)
+
+## *About Me :*
 
 ### Hi there 👋, I'm Sagar. I'm a compuer science engineer. Welcome to my gh page
 
