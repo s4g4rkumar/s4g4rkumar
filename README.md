@@ -1,6 +1,6 @@
 # s4g4rkumar
 
-![Banner](github-banner.png)
+![Banner](github-banner-1.png)
 
 ## *About Me :*
 
@@ -12,13 +12,13 @@
 
 Projects to demonstrate my knowledge. Here are some examples of what I have been working on:
 
-- [Alarm Application](tobefilledlater)
-
 - [Portfolio](tobefilledlater)
 
 - [CSS Battle](tobefilledlater)
 
-- [Games](tobefilledlater)
+- [Roller Madness](tobefilledlater)
+
+- [Ping-Pong](tobefilledlater)
 
 ## 🌱 *Currently Learning :*
 
@@ -37,6 +37,8 @@ I'm looking for help with trying to find my first software engineering job in th
  &nbsp; &nbsp; &nbsp; &nbsp; [Twitter](tobefilledlater)
 
 ## ⚡ *Fun facts :*
+
+I am lost in thought and “in my head” a lot. Sometimes so much that I cannot even SEE things, people, etc. right in front of me. I will literally walk right past somebody I know without seeing them or saying hello…because I am lost in thought.
 
 <!--
 **s4g4rkumar/s4g4rkumar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
