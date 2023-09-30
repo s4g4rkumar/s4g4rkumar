@@ -1,0 +1,204 @@
+/* This section imports custom fonts and glyphs for all the webpages.*/
+/* #region */
+
+/* Font-weight 100: regular and italic*/
+/* #region */
+@font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-Thin.woff2);
+    font-weight: 100;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-ThinItalic.woff2);
+    font-weight: 100;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  /* Font-weight 200: regular and italic*/
+  /* #region */
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-ExtraLight.woff2);
+    font-weight: 200;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-ExtraLightItalic.woff2);
+    font-weight: 200;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  
+  /* Font-weight 300: regular and italic*/
+  /* #region */
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-Light.woff2);
+    font-weight: 300;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-LightItalic.woff2);
+    font-weight: 300;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  /* Font-weight 400: regular and italic*/
+  /* #region */
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-Regular.woff2);
+    font-weight: 400;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-Italic.woff2);
+    font-weight: 400;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  /* Font-weight 500: regular and italic*/
+  /* #region */
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-Medium.woff2);
+    font-weight: 500;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-MediumItalic.woff2);
+    font-weight: 500;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  /* Font-weight 600: regular and italic*/
+  /* #region */
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-SemiBold.woff2);
+    font-weight: 600;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-SemiBoldItalic.woff2);
+    font-weight: 600;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  /* Font-weight 700: regular and italic*/
+  /* #region */
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-Bold.woff2);
+    font-weight: 700;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-BoldItalic.woff2);
+    font-weight: 700;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  /* Font-weight 800: regular and italic*/
+  /* #region */
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-ExtraBold.woff2);
+    font-weight: 800;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-ExtraBoldItalic.woff2);
+    font-weight: 800;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  /* Font-weight 900: regular and italic*/
+  /* #region */
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-Black.woff2);
+    font-weight: 900;
+  }
+  @font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-BlackItalic.woff2);
+    font-weight: 900;
+    font-style: italic;
+  }
+  /* #endregion */
+  
+  /* glyph icons */
+  /* #region */
+  @font-face {
+    font-family: "ico";
+    src: url("../fonts/icons.woff2") format("woff2");
+  }
+  /* #endregion */
+  
+  /* icon class defaults */
+  /* #region */
+  [class^="i-"]::before,
+  [class*="i-"]::before {
+    display: inline-block;
+    font-family: ico !important;
+    font-style: normal;
+    line-height: 1;
+    vertical-align: -.125rem;
+  }
+  /* #endregion */
+  
+  /* contain icons in center of line */
+  /* #region */
+  .ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* #endregion */
+  
+  
+  /* Actual icon info */
+  /* #region */
+  .i-app-store::before{ content: "\f000"; }
+  .i-arrow-circled::before{ content: "\f001"; }
+  .i-battery::before{ content: "\f002"; }
+  .i-brand-logo::before{ content: "\f003"; }
+  .i-fb-alt::before{ content: "\f004"; }
+  .i-fb::before{ content: "\f005"; }
+  .i-github-alt::before{ content: "\f006"; }
+  .i-github::before{ content: "\f007"; }
+  .i-insta::before{ content: "\f008"; }
+  .i-link::before{ content: "\f009"; }
+  .i-ln-in::before{ content: "\f00a"; }
+  .i-ln::before{ content: "\f00b"; }
+  .i-play-store::before{ content: "\f00c"; }
+  .i-twitter::before{ content: "\f00d"; }
+  .i-whatsapp::before{ content: "\f00e"; }
+  .i-wifi::before{ content: "\f00f"; }
+  .i-call::before{ content: "\f010"; }
+  .i-email::before{ content: "\f011"; }
+  .i-mouse::before{ content: "\f012"; }
+  .i-0::before{ content: "\f013"; }
+  .i-link-45deg::before{ content: "\f014"; }
+  .i-folder::before{ content: "\f015"; }
+  .i-restart::before{ content: "\f016"; }
+  .i-settings::before{ content: "\f017"; }
+  .i-pause::before{ content: "\f018"; }
+  .i-play::before{ content: "\f019"; }
+  .i-starfighter::before{ content: "\f01a"; }
+  .i-steam::before{ content: "\f01b"; }
+  .i-right::before{ content: "\f01c"; }
+  .i-left::before{ content: "\f01d"; }
+  /* #endregion */
+  
+  /* #endregion */
