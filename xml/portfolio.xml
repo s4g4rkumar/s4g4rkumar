@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gaming-projects>
+    <project>
+        <title>roller madness</title>
+        <desc>In a physics-driven 3-D game, take control of a fireball. 
+            Collect all the artifacts on the level without jumping off the platform and 
+            avoid colliding into the ice balls. 
+            Progress through various levels to finish the game.
+        </desc>
+        <img>img/index.jpg</img>
+        <proj-tech>
+            <tech>Unity</tech>
+            <tech>C#</tech>
+            <tech>Inkscape</tech>
+            <tech>Blender</tech>
+        </proj-tech>
+        <links>
+            <link>404</link>
+            <link>404</link>
+        </links>
+    </project>
+    <project>
+        <title>Aim Down Range</title>
+        <desc>The player takes control of a machine in a first-person shooter. 
+            The objective is to kill as many enemy targets as possible in a given time frame 
+            without hurting your friendly targets.
+        </desc>
+        <img>img/index.jpg</img>
+        <proj-tech>
+            <tech>Unreal</tech>
+            <tech>C++</tech>
+            <tech>Inkscape</tech>
+            <tech>Blender</tech>
+        </proj-tech>
+        <links>
+            <link>404</link>
+            <link>404</link>
+        </links>
+    </project>
+    <project>
+        <title>Bootcamp</title>
+        <desc>The player runs through an obstacle course in an fps environment and 
+            takes out all enemy targets in the way to reach the finish line. 
+            The objective is to finish the obstacle course as fast as possible 
+            without missing a single enemy target.
+        </desc>
+        <img>img/index.jpg</img>
+        <proj-tech>
+            <tech>Unity</tech>
+            <tech>C#</tech>
+            <tech>Inkscape</tech>
+            <tech>Blender</tech>
+        </proj-tech>
+        <links>
+            <link>404</link>
+            <link>404</link>
+        </links>
+    </project>
+</gaming-projects>

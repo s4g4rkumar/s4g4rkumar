@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- To set zoom to 1.0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="svg/logo.svg" type="image/svg+xml">
+    <!-- Included css -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/bg.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <!-- included js script-->
+    <script src="js/gallery.js"></script>
+    <!-- Title of the page -->
+    <title>Gallery | Sagar Kumar</title>
+</head>
+<body>
+    <!-- loading animation before page load is complete -->
+    <div id="loader">
+        <div class="lds-ripple"></div>
+    </div>
+
+    <!-- header containing navbar and brand logo-->
+    <header>
+        <!-- brand logo -->
+        <div class="brand-logo">
+            <a href="home.html"><i class="i-brand-logo"></i></a>
+        </div>
+         <!-- hamburger icon -->
+        <div class="ham-icon" id="ham-menu" onclick="hamAnimate(),bodystyle()">
+            <div class="ham"></div>
+        </div>
+         <!-- nav list containing all nav bar items -->
+        <nav>
+            <ul class="nav-list">
+                <li><a href="project" class="nav-item" onclick="hamAnimate()">projects</a></li>
+                <li><a href="#gallery" class="nav-item navactive" onclick="hamAnimate(),highlightnav(this)">gallery</a></li>
+                <li><a href="about" class="nav-item" onclick="hamAnimate()">about</a></li>
+                <li><a href="#contact" class="nav-item" onclick="hamAnimate(),highlightnav(this)">contact</a></li>
+                <li><a href="pdf/Sagar_Resume.pdf" download="SagarKumar_Resume" class="nav-item resume-btn">resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section containing hero image and info sections -->
+    <main>     
+        
+        <div class="slider">
+            <div class="container">
+              <div class="box x"></div>
+              <div class="box y"></div>
+              <div class="box z"></div>
+            </div>
+            <div class="shadow"></div>
+        </div>  
+
+        <span class="scroll-down ico"><i class="i-mouse"></i></span>
+    </main>
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <!-- Gallery item selection menu -->  
+        <h2 class="left">gallery</h2>       
+        <ul class="gal-options">
+            <li><button class="select btn" onclick="galSelect(this,'all')">All</button></li>
+            <li><button class="select btn" onclick="galSelect(this,'ill')">Illustration</button></li>
+            <li><button class="select btn" onclick="galSelect(this,'anim')">Animation</button></li>
+            <li><button class="select btn" onclick="galSelect(this,'mod')">Modelling</button> </li>
+            <li><button class="select btn" onclick="galSelect(this,'level')">Level Design</button></li>
+        </ul>
+
+        <!-- Modal for the images -->
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>       
+            <span id="previous" onclick="changeImg(-1)">&#8249;</span>
+            <div class="modal-content" id="modal-img">    
+            </div>
+            <span id="next" onclick="changeImg(1)">&#8250;</span>
+        </div>
+
+    </section>
+    <!-- Footer -->
+    <footer>
+        <!-- Get in touch section with email -->
+        <h2 id="contact" class="left">get in touch</h2>
+        <div class="about-contact-me"> 
+            <p class="contact-me-msg">
+                Currently, I'm looking for an opportunity to kick start my career. 
+                If my profile is a fit, you can shoot me a message right away. 
+                I'll get in touch.
+            </p>
+            <a href="mailto:sagar@s4g4rkumar.com" class="btn">Say Hello</a>
+        </div>  
+        <!-- socila links -->
+        <ul class="social-media">
+            <li><a href="https://wa.me/917082292156" target="_blank" class="social-link ico"><i class="i-whatsapp"></i></a></li>
+            <li><a href="https://steamcommunity.com/id/Ghost_47_cs/" target="_blank" class="social-link ico"><i class="i-steam"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/s4g4rkumar" target="_blank" class="social-link ico"><i class="i-ln"></i></a></li>
+            <li><a href="https://www.github.com/s4g4rkumar" target="_blank" class="social-link ico"><i class="i-github"></i></a></li>
+            <li><a href="https://www.instagram.com/s4g4rkumar" target="_blank" class="social-link ico"><i class="i-insta"></i></a></li>
+        </ul>
+
+        <div class="copy-right">
+            <p>Sagar Kumar &copy; 2021</p>
+            <span class="bck-top" onclick="bckTop()">back to top</span>
+        </div>
+    </footer>
+</body>
+</html>
