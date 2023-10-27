@@ -1,0 +1,235 @@
+
+
+
+
+
+/* bg for projects */
+/* #region */
+.main-project{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: inherit;
+}
+.main-bg-project{
+	margin-inline:auto;
+	padding: 2rem 0;	
+}
+
+/* #region */
+.laptop{
+	display: inline-block;
+	margin-inline: auto;
+}
+.laptop-top::before{
+	position: absolute;
+	content: "</>";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 800;	
+	top: 40%;
+	left:-10px;
+	width: 40px;
+	height: 40px;
+	background: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+.laptop-top{
+	width: 280px;
+	height: 180px;
+	background: white;
+	margin: 5px 10px;
+	border-radius: 1rem;
+	padding: 15px;
+	position: relative;
+}
+.laptop-screen{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 250px;
+	height: 150px;
+	background: rgb(25, 46, 85);
+}
+.playgame{
+	margin-inline: auto;
+}
+.laptop-base{
+	width: 300px;
+	height: 2rem;
+	background: white;
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	padding: .5rem;
+}
+.laptop-base-inner{
+	width: 100px;
+	height: 1rem;
+	background: rgb(141, 141, 141);
+	border-radius: 10% / 50%;
+	margin-inline: auto;
+}
+.main-txt{
+	margin-inline:auto;
+	color: white;
+}
+.main-txt>h1{
+	font-size: 5rem;
+}
+.main-txt>p{
+	font-size: 2rem;
+	margin-block: 1rem;
+}
+.mouse{
+	display: none;
+	width: 4rem;
+	height: 6rem;
+	background: white;
+	border-radius: 50% / 25%;
+	padding: 1rem;
+}
+.mouse-scroll{
+	margin-inline: auto;
+	width: .75rem;
+	height: 2rem;
+	background: rgb(76, 113, 182);
+	border-radius: 50% / 20%;
+}
+
+/* #endregion */
+
+
+@media (min-width:900px){
+	.main-project{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.main-bg-project{
+		width: 480px;
+		display: flex;
+		align-items: flex-end;		
+	}
+	.mouse{
+		display: block;
+	}
+	.main-txt>h1{
+		font-size: 7rem;
+	}
+	.main-txt>span{
+		font-size: 1.2rem;
+	}
+	.main-txt>p{
+		font-size: 2.5rem;
+		margin-block: 1rem;
+	}
+	.laptop{
+		transform: scale(1.2);
+	}
+}
+
+
+
+.laptop-base{
+	position: relative;
+}
+.gamepad{
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	right: 0;
+	margin-inline: auto;
+	width: 140px;
+	height: 60px;
+	background: white;
+	border-radius: 25% / 50%;
+}
+/* gamepad pause and start button */
+.gamepad::before,.gamepad::after{
+	position: absolute;
+	content:" ";
+	width: 10px;
+	height: 6px;
+	bottom: 15px;
+	z-index: 10;
+	border-radius: 3px;
+	background: rgb(39, 39, 18);
+}
+.gamepad::before{
+	background: coral;
+	left: 58px;
+}
+.gamepad::after{
+	background: rgb(23, 133, 184);
+	right: 58px;
+}
+
+.gamepad-left, .gamepad-right{
+	position: absolute;
+	top:0;
+	width: 70px;
+	height: 70px;
+	background: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+.gamepad-left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: -10px;
+}
+.gamepad-left::after{
+	content: "\002B";
+	color: coral;
+	font-weight: 900;
+	font-size: 4rem;
+}
+.gamepad-right{
+	right: -10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 19px;
+	transform: rotate(45deg);
+}
+.gamepad-btn{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: rgb(18, 20, 26);	
+	margin: 2px;
+}
+.gamepad-btn:nth-child(1){
+	background: rgb(23, 133, 184);
+}
+.gamepad-btn:nth-child(4){
+	background: coral;
+}
+
+@media (min-width:900px){
+	.gamepad{
+		display: inline-block;
+	}
+}
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
