@@ -145,7 +145,8 @@ function loadPagefromXML(){
         
         for(var j=0;j<imgs.childElementCount;j++){
           var image=document.createElement("img");
-          var dir="../"+imgs.getElementsByTagName("image")[j].childNodes[0].nodeValue;
+          // var dir="../"+imgs.getElementsByTagName("image")[j].childNodes[0].nodeValue;
+          var dir=imgs.getElementsByTagName("image")[j].childNodes[0].nodeValue;
           image.src=dir;
           list_item.appendChild(image);
           if( j==0)
