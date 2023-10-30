@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // function to load xml document
 function loadTimerXML() {
   var xmlhttp = new XMLHttpRequest();
-  xmlhttp.open("GET", "xml/maintain.xml", true);
+  xmlhttp.open("GET", "xml/maintaindate.xml", true);
   xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       useXML(this);  
